@@ -1,4 +1,4 @@
-package com.selenium;
+package com.selenium.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
