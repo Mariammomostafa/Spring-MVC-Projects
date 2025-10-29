@@ -33,5 +33,9 @@ Hobbies :
 
 Gender : ${dto.gender}
 
+<br><br>
+
+<a href="/spring_mvc_CustomAnnotation/login">login</a>
+
 </body>
 </html>
