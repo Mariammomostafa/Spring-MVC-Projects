@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.selenium.dto.RegisterDto;
 import com.selenium.validator.EmailValidator;
+import com.selenium.validator.UsernameRegisterValidator;
 
 import jakarta.validation.Valid;
 
@@ -58,6 +59,7 @@ public class RegisterationController {
 		binder.registerCustomEditor(String.class, "username", editor);
 		
 		binder.addValidators(new EmailValidator());
+		binder.addValidators(new UsernameRegisterValidator());
 		
 	}
 

@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.selenium.dto.LoginDto;
-import com.selenium.validator.UsernameValidator;
+import com.selenium.validator.UsernameLoginValidator;
+import com.selenium.validator.UsernameRegisterValidator;
 
 import jakarta.validation.Valid;
 
@@ -55,7 +56,7 @@ public class LoginController {
 		StringTrimmerEditor editor = new StringTrimmerEditor(true);
 		binder.registerCustomEditor(String.class, "username", editor);
 		
-		binder.addValidators(new UsernameValidator());
+		binder.addValidators(new UsernameLoginValidator());
 		
 	}
 }

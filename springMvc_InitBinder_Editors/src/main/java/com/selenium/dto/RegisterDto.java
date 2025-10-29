@@ -3,7 +3,11 @@ package com.selenium.dto;
 import java.util.Arrays;
 import java.util.Currency;
 
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 public class RegisterDto {
 	
@@ -13,7 +17,9 @@ public class RegisterDto {
 	
 	private String password ;
 	
-	
+	@NotNull
+	@Min(value = 20 , message = " * Age strat from 20")
+	@Max(value = 40 , message = " * Age end at  40")
 	private int age ;
 	
 	private String country ;

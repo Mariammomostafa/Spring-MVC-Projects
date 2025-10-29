@@ -26,7 +26,7 @@ font-family: serif;
 <div align="center">
 <h1>Login Form</h1> <hr> <br><br>
 
-<form:form action="/springMvc_InitBinder_Editors/process-login" method="post" modelAttribute="loginDto">
+<form:form action="/spring_mvc_InitBinder_Editors/process-login" method="post" modelAttribute="loginDto">
 
 
 	<label > User Name  : </label>

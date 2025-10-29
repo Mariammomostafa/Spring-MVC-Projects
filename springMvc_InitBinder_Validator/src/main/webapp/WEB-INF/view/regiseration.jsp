@@ -42,20 +42,6 @@ font-family: serif;
 
 <br><br>
 
-<p>
-<label > CreditCard  : </label>
-<form:input path="creditCard"/>
-	<form:errors path="creditCard" cssClass="color"></form:errors>
-
-</p>
-<br><br>
-
-<label class="color"> Age  : </label>
-<form:input path="age"/>
-	<form:errors path="age" cssClass="color"></form:errors>
-
-<br><br>
-
 <label class="color">Country :   </label>
 <form:select path="country"><br><br>
 

@@ -39,10 +39,10 @@ font-family: serif;
 <form:input path="password"/>
 </p>
 <label>termAndCondition  : </label>
-<form:checkbox path="termAndCondition"/>
+<form:checkbox path="termAndCondition"/><br><br>
 
 <label>Food : </label>
-Pizza : <form:checkbox path="food" value="Pizza"/><br><br>
+Pizza <form:checkbox path="food" value="Pizza"/><br><br>
 
 <input type="submit" value="login">
 

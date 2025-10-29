@@ -10,7 +10,6 @@ public class RegisterDto {
 	private String password ;
 	
 	private String email;
-	private int age ;
 	
 	private String country ;
 	
@@ -18,7 +17,6 @@ public class RegisterDto {
 	
 	private String gender;
 	
-	private CreditCard creditCard;
 	
 	public String getUsername() {
 		return username;
@@ -55,28 +53,6 @@ public class RegisterDto {
 		this.gender = gender;
 	}
 	
-	
-	
-	public int getAge() {
-		return age;
-	}
-	public void setAge(int age) {
-		this.age = age;
-	}
-	
-	
-	
-	
-	public CreditCard getCreditCard() {
-		return creditCard;
-	}
-	public void setCreditCard(CreditCard creditCard) {
-		this.creditCard = creditCard;
-	}
-	
-	
-	
-	
 	public String getEmail() {
 		return email;
 	}
@@ -85,9 +61,8 @@ public class RegisterDto {
 	}
 	@Override
 	public String toString() {
-		return "RegisterDto [username=" + username + ", password=" + password + ", email=" + email + ", age=" + age
-				+ ", country=" + country + ", hobbies=" + Arrays.toString(hobbies) + ", gender=" + gender
-				+ ", creditCard=" + creditCard + "]";
+		return "RegisterDto [username=" + username + ", password=" + password + ", email=" + email + ", country="
+				+ country + ", hobbies=" + Arrays.toString(hobbies) + ", gender=" + gender + "]";
 	}
 	
 	

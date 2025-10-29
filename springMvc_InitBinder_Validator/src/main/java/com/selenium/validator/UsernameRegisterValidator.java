@@ -5,14 +5,15 @@ import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
 import com.selenium.dto.LoginDto;
+import com.selenium.dto.RegisterDto;
 
-public class UsernameValidator implements Validator{
+public class UsernameRegisterValidator implements Validator{
 
 	
 	@Override
 	public boolean supports(Class<?> clazz) {
 		
-		return LoginDto.class.equals(clazz);
+		return RegisterDto.class.equals(clazz);
 	}
 
 	@Override
@@ -23,7 +24,7 @@ public class UsernameValidator implements Validator{
 		
 	   ValidationUtils.rejectIfEmptyOrWhitespace(errors, "username", "username.empty");
 		
-	    String name = ((LoginDto)target).getUsername();
+	    String name = ((RegisterDto)target).getUsername();
 	    
 	    if( name != null) {
 	    	

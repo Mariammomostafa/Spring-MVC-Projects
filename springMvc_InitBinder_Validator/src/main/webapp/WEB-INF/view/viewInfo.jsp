@@ -8,6 +8,18 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
+
+<style type="text/css">
+
+.color{
+color: red;
+font-size: 20px bold ;
+font-family: serif;
+}
+
+</style>
+
 </head>
 <body>
 
@@ -17,10 +29,6 @@ Password : ${dto.password} <br><br>
 
 Email : ${dto.email}  <br><br>
 
-CreditCard : ${dto.creditCard.firstFourDigit}-${dto.creditCard.secondFourDigit}-${dto.creditCard.thirdFourDigit}-${dto.creditCard.lastFourDigit} <br><br>
-
-
-Age : ${dto.age}  <br><br>
 Country : ${dto.country} <br><br>
 
 Hobbies :  
@@ -30,7 +38,8 @@ Hobbies :
 </c:forEach> 
 <br><br>
 
-Gender : ${dto.gender}
-
+Gender : ${dto.gender}<br><br>
+<a href="/springMvc_InitBinder_Validator" class="color"> Home </a><br><br>
+<a href="/springMvc_InitBinder_Validator/login" class="color"> Login </a>
 </body>
 </html>

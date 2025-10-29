@@ -25,7 +25,7 @@ font-family: serif;
 <div align="center">
 <h1>Registration Form</h1> <hr> <br><br>
 
-<form:form action="/springMvc_InitBinder_Editors/process-register" modelAttribute="dto">
+<form:form action="/spring_mvc_InitBinder_Editors/process-register" modelAttribute="dto">
 
 <label class="color"> User Name  : </label>
 <form:input  id="username" path="username"/>
@@ -44,6 +44,7 @@ font-family: serif;
 
 <label class="color"> Age  : </label>
 <form:input path="age"/>
+<form:errors path="age" cssClass="color"></form:errors>
 <br><br>
 
 <label class="color">Country :   </label>

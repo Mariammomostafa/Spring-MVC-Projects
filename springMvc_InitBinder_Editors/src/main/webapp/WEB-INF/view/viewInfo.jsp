@@ -29,6 +29,7 @@ Hobbies :
 <br><br>
 
 Gender : ${dto.gender}
-
+<br><br>
+<a href="/spring_mvc_InitBinder_Editors/login">Login</a>
 </body>
 </html>
