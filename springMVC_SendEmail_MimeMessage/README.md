@@ -4,11 +4,11 @@
 ### Sending Email
 - Use Session to set the connection with Gmail server through Properties obj
   <p align="center">
-    <img width="929" height="519" alt="1" src="https://github.com/user-attachments/assets/98e7e298-f5b1-4b30-84f5-be5688630424" />
+    <img width="600" height="400" alt="1" src="https://github.com/user-attachments/assets/98e7e298-f5b1-4b30-84f5-be5688630424" />
   </p>
 - use MimeMessage class to send email from app's email to users
   <p align="center">
-    <img width="1139" height="699" alt="1" src="https://github.com/user-attachments/assets/36bbf961-7ac4-427f-8e65-f20dbcc7d8c9" />
+    <img width="600" height="400" alt="1" src="https://github.com/user-attachments/assets/36bbf961-7ac4-427f-8e65-f20dbcc7d8c9" />
   </p>
 #### Due to Gmail's Security , you have to  to create password for your gmail account due to it's NOT acceptable for app to register with actual password
 - Gmail is very secure & if we want to configure Gmail with our app , we need to turn on less secure app feature inside the Gmail But this feature Not allowed any more , so the alternative way is :
