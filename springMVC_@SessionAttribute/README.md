@@ -6,9 +6,9 @@
   </p>
   <br>
 - We can get Session's attributes from any controller in the project
-- This annotation will push copy of it's attribute for each model of each request ONLY in the same controller
--  This annotation will NOT push copy of it's attribute for any model of other controllers
-
+<p align="center">
+<img width="1151" height="483" alt="1" src="https://github.com/user-attachments/assets/4a5807a1-6a96-4fdb-af8b-b8e9610d7713" />
+</p><br>
   ### Prerequisites
 - Java 21
 - spring Webmvc 6.2.12
