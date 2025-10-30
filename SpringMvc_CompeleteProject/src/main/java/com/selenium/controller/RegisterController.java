@@ -20,9 +20,9 @@ import com.selenium.config.dto.Phone;
 import com.selenium.config.dto.RegisterDto;
 import com.selenium.config.dto.UserDto;
 import com.selenium.editor.CustomNameEditor;
-import com.selenium.editor.EmailValidator;
 import com.selenium.editor.UserNameValidator;
 import com.selenium.service.AppService;
+import com.selenium.validator.EmailValidator;
 
 import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;

@@ -1,4 +1,4 @@
-package com.selenium.editor;
+package com.selenium.validator;
 
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
