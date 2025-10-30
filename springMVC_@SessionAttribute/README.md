@@ -15,5 +15,4 @@
 - spring Webmvc 6.2.12
 - Validation-api (specification) & hibernate-validator (Implementation)
 - Servlet-Api & Jstl
-- For Mail Service : spring-context-support & angus-mail dependencies
 - IDE (Eclips)
