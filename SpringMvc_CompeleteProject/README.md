@@ -24,7 +24,6 @@ This is spring mvc maven project include lot of features like --> validators , E
 <img width="600" height="500" alt="1" src="https://github.com/user-attachments/assets/f843630b-47b9-4a8d-8a70-b39fc739f768" />
 </p>
  <br><br>
-
 ### Send Feedback
 - user can send feedback to the application's mail
  <img width="947" height="743" alt="1" src="https://github.com/user-attachments/assets/e22efd79-2cb2-4b21-a24e-ad6286ef904d" />
