@@ -13,7 +13,7 @@ This is spring mvc maven project include lot of features like --> validators , E
 - Turn on 2 -step-verification feature in your Gmail account
 - generate new app password due to the default Gmail password will NOT work
 <p align="center">
-<img width="450"  height="350" alt="1" src="https://github.com/user-attachments/assets/2ef4e9fb-cc44-434f-9237-9bec6e663b78" />
+<img width="500"  height="400" alt="1" src="https://github.com/user-attachments/assets/2ef4e9fb-cc44-434f-9237-9bec6e663b78" />
 </p>
 <br><br><br><br>
 <img width="683" height="457" alt="1" src="https://github.com/user-attachments/assets/8d1c4650-5664-4bec-b03a-4cd0fcdde566" />
