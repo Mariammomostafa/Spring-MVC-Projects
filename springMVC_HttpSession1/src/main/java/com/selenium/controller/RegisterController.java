@@ -26,6 +26,10 @@ public class RegisterController {
 	@RequestMapping("/home")
 	public String welcome(Model model ,HttpSession session) {
 
+		String name =(String) model.getAttribute("username");
+		
+		System.out.println(name);
+		
 		UserDto userDto = new UserDto();
 		model.addAttribute("userDto", userDto);
 		
@@ -66,10 +70,11 @@ public class RegisterController {
 
 		// create Session
 		HttpSession session = request.getSession();
+		
 		session.setAttribute("username", registerDto.getName());
 		session.setMaxInactiveInterval(10);
 
-		// go to parse() of phone formatter before enter this method
+		
 
 		System.out.println("inside controller after successful register...");
 

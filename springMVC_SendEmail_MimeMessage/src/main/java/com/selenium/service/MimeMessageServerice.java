@@ -42,7 +42,7 @@ public class MimeMessageServerice {
 			@Override
 			 protected PasswordAuthentication getPasswordAuthentication() {
 				      
-				return new PasswordAuthentication("mariam631985@gmail.com", "rfmq wjrl chyy plbc");
+				return new PasswordAuthentication("your Gmail ", "new Generated password");
 		     }
 		});
 		
@@ -51,8 +51,7 @@ public class MimeMessageServerice {
 	
 	public void sendMessage(String userEmail) throws MessagingException, IOException {
 		
-		System.out.println(" inside usereMaiL() 1");
-		
+				
 		Message message = new MimeMessage(getSession());
 		message.setSubject("Message from java project");
 		
@@ -76,7 +75,7 @@ public class MimeMessageServerice {
 		multipart.addBodyPart(attachment2);
 		
 		message.setContent(multipart);
-		System.out.println(" inside usereMaiL() 2 ");
+		
 		Transport.send(message);
 	
 	}

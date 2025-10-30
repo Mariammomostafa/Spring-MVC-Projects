@@ -24,35 +24,7 @@ import jakarta.validation.Valid;
 @SessionAttributes({"dto" ,"emailDto"})
 public class RegisterController {
 
-	@RequestMapping("/home")
-	public String welcome(Model model) {
-
-		UserDto userDto = new UserDto();
-		model.addAttribute("userDto", userDto);
-		
-		
-		return "home";
-	}
-
-	@PostMapping("/process")
-	public String showResult(@Valid @ModelAttribute("userDto") UserDto userDto, BindingResult result) {
-
-		if (result.hasErrors()) {
-
-			List<ObjectError> allErrors = result.getAllErrors();
-
-			for (ObjectError error : allErrors) {
-
-				System.out.println(error);
-			}
-
-			return "home";
-
-		} else {
-
-			return "result";
-		}
-	}
+	
 
 	@RequestMapping("/register")
 	public String register(Model model) {
@@ -88,6 +60,37 @@ public class RegisterController {
 		}
 
 	
+	}
+	
+	
+	@RequestMapping("/home")
+	public String welcome(Model model) {
+
+		UserDto userDto = new UserDto();
+		model.addAttribute("userDto", userDto);
+		
+		
+		return "home";
+	}
+
+	@PostMapping("/process")
+	public String showResult(@Valid @ModelAttribute("userDto") UserDto userDto, BindingResult result) {
+
+		if (result.hasErrors()) {
+
+			List<ObjectError> allErrors = result.getAllErrors();
+
+			for (ObjectError error : allErrors) {
+
+				System.out.println(error);
+			}
+
+			return "home";
+
+		} else {
+
+			return "result";
+		}
 	}
 
 	@InitBinder("dto")

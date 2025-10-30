@@ -1,7 +1,5 @@
 package com.selenium.config.dto;
 
-import com.selenium.annotation.Age;
-
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
 
@@ -23,9 +21,7 @@ public class RegisterDto {
 	
 	private String gender;
 	
-	@Age(lower = 15 , upper = 40 )
-	private int age ;
-	
+		
 	private CommunicationDto communicationDto;
 
 	public String getName() {
@@ -85,15 +81,6 @@ public class RegisterDto {
 	public void setCommunicationDto(CommunicationDto communicationDto) {
 		this.communicationDto = communicationDto;
 	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-	
 
 
 

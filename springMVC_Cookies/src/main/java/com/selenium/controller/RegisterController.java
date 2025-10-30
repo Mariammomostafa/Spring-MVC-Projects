@@ -75,8 +75,7 @@ public class RegisterController {
 
 		response.addCookie(cookie);
 
-		// go to parse() of phone formatter before enter this method
-
+		
 		System.out.println("inside controller after successful register...");
 
 		if (result.hasErrors()) {
