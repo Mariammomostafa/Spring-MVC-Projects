@@ -8,13 +8,18 @@
 - Gmail is very secure & if we want to configure Gmail with our app , we need to turn on less secure app feature inside the Gmail But this feature Not allowed any more , so the alternative way is :
 - Turn on 2 -step-verification feature in your Gmail account
 - generate new app password due to the default Gmail password will NOT work
-<img width="450" align="center" height="350" alt="1" src="https://github.com/user-attachments/assets/2ef4e9fb-cc44-434f-9237-9bec6e663b78" />
-<br><br><br><br>
+<p align="center">
+<img width="600" align="center" height="500" alt="1" src="https://github.com/user-attachments/assets/2ef4e9fb-cc44-434f-9237-9bec6e663b78" />
+</p>
+<br><br>
+<p align="center">
 <img width="683" height="457" alt="1" src="https://github.com/user-attachments/assets/8d1c4650-5664-4bec-b03a-4cd0fcdde566" />
-<br><br><br><br>
-
+</p>
+<br><br>
+<p align="center">
 <img width="945" height="829" alt="1" src="https://github.com/user-attachments/assets/f843630b-47b9-4a8d-8a70-b39fc739f768" />
-<br><br><br><br>
+</p>
+<br><br>
 
 ### Prerequisites
 - Java 21
