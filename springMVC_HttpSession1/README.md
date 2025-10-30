@@ -1,4 +1,5 @@
 # Spring Mvc maven project for Session
+- Session will be created using HttpServletRequest 
 - Session will be created & saved at  the server side While just save SessionId as a cookie at the client side
 - we'll create the Session through HttpSession Interface
  <p align="center">
