@@ -26,8 +26,10 @@ This is spring mvc maven project include lot of features like --> validators , E
  <br><br>
 ### Send Feedback
 - user can send feedback to the application's mail
- <img width="947" height="743" alt="1" src="https://github.com/user-attachments/assets/e22efd79-2cb2-4b21-a24e-ad6286ef904d" />
- 
+<br><br>
+<p align="center">
+ <img width="600" height="500" alt="1" src="https://github.com/user-attachments/assets/e22efd79-2cb2-4b21-a24e-ad6286ef904d" />
+</p>
 ### Prerequisites
 - Java 21
 - spring Webmvc 6.2.12
