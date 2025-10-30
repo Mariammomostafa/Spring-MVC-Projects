@@ -26,7 +26,7 @@ font-family: serif;
 <div align="center">
 <h1>Login Form</h1> <hr> <br><br>
 
-<form:form action="/springMvc_Formatter/process-login" method="post" modelAttribute="loginDto">
+<form:form action="/spring_mvc_PhoneFormatter/process-login" method="post" modelAttribute="loginDto">
 
 <p>
 	<label > User Name  : </label>
@@ -41,10 +41,10 @@ font-family: serif;
 </p>
 <label>termAndCondition  : </label>
 <form:checkbox path="termAndCondition"/><br><br>
-<form:errors path="termAndCondition" cssClass="color"></form:errors><br><br>
+<form:errors path="termAndCondition" cssClass="color"></form:errors><br>
 
 <label>Food : </label>
-Pizza : <form:checkbox path="food" value="Pizza"/>
+Pizza : <form:checkbox path="food" value="Pizza"/><br><br>
 
 <input type="submit" value="login">
 

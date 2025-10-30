@@ -9,6 +9,6 @@
 <body>
     <h2>Welcome to Home.com site</h2>
     
-    <a href="/springMvc_xml_maven/welcome">MOM's cafee </a>
+    <a href="/springMvc_xml/welcome">MOM's cafee </a>
 </body>
 </html>

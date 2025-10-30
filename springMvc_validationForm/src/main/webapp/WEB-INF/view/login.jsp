@@ -26,7 +26,7 @@ font-family: serif;
 <div align="center">
 <h1>Login Form</h1> <hr> <br><br>
 
-<form:form action="/springMvc_validationForm/process-login" method="post" modelAttribute="loginDto">
+<form:form action="/spring_mvc_ValivationForm/process-login" method="post" modelAttribute="loginDto">
 
 
 	<label > User Name  : </label>
@@ -39,8 +39,8 @@ font-family: serif;
 <form:input path="password"/>
 <form:errors path="password" cssClass="color"></form:errors><br>
 </p>
-<label>termAndCondition  : </label>
-<form:checkbox path="termAndCondition"/>
+<label>termAndCondition  : </label><br>
+<form:checkbox path="termAndCondition"/> I agree for all rules
 <form:errors path="termAndCondition" cssClass="color"></form:errors><br><br>
 
 <label>Food : </label>

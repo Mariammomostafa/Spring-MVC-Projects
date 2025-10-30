@@ -3,20 +3,16 @@ package com.selenium.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
-import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 import com.selenium.config.dto.UserDto;
-import com.selenium.editor.CustomNameEditor;
 import com.selenium.service.AppService;
 
 import jakarta.servlet.http.HttpSession;
@@ -24,7 +20,7 @@ import jakarta.validation.Valid;
 
 @Controller
 @SessionAttributes({"userDto" , "emailDto"})
-public class RegisterController {
+public class LoginController {
 	
 	
 	@Autowired
@@ -68,18 +64,5 @@ public class RegisterController {
 	}
 	
 	
-	@InitBinder("dto")
-	public void binder(WebDataBinder binder) {
-		
-		
-		StringTrimmerEditor editor = new StringTrimmerEditor(true);
-		binder.registerCustomEditor(String.class, "name", editor);
-		binder.setDisallowedFields("password");
-		
-		
-		CustomNameEditor nameEditor = new CustomNameEditor();
-		binder.registerCustomEditor(String.class, "name", nameEditor);
-		
-		
-	}
+	
 }

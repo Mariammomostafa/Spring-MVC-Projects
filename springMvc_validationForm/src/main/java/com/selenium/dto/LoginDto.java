@@ -1,4 +1,4 @@
-package com.selenium.dtoconfig;
+package com.selenium.dto;
 
 
 import jakarta.validation.constraints.AssertTrue;

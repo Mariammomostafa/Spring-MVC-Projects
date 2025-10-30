@@ -3,6 +3,10 @@
     pageEncoding="UTF-8" isELIgnored="false"%>
 <html>
 <body>
-<h2>Welcome ${loginDto.username}</h2>
+<h2>Welcome ${loginDto.username}</h2><br><br>
+
+<a href="/spring_mvc_PhoneFormatter/register">Register</a><br><br>
+
+<a href="/spring_mvc_PhoneFormatter/login">Login</a>
 </body>
 </html>

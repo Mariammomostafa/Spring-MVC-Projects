@@ -10,12 +10,12 @@
 
 
 
-<form action="processOrder">
+<form action="/springMvc_xml/processOrder">
 
 <div align="center">
 <h1>MOM's cafee</h1>
-<hr>
-<label for="item">Item Name :</label>
+<hr><br><br>
+<label for="item">Food Name :</label>
 <input  type="text" name="item" id="item" placeholder="food type is ??">
 
 <input type="submit">

@@ -40,7 +40,7 @@ public class EmailController {
 	@PostMapping("/process-email")
 	public String processEmail(@SessionAttribute("userDto") UserDto dto 
 			            
-			,  @ModelAttribute("emailDto") EmailDto emailDto) throws MessagingException, IOException {
+			,  @ModelAttribute("emailDto") EmailDto emailDto) {
 				
 			try {
 				

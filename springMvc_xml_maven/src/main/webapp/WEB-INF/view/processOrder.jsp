@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" isELIgnored="false"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +9,6 @@
 <body>
 
 <h1>Order received ....</h1>
-your order <span> ${item} </span> is getting processed ....
+your order <span style="color: red"> ${item} </span> is getting processed ....
 </body>
 </html>

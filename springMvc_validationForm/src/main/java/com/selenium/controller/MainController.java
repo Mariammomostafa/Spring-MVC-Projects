@@ -1,4 +1,4 @@
-package com.selenium.config;
+package com.selenium.controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.selenium.dtoconfig.LoginDto;
-import com.selenium.dtoconfig.RegisterDto;
+import com.selenium.dto.LoginDto;
+import com.selenium.dto.RegisterDto;
 
 import jakarta.validation.Valid;
 

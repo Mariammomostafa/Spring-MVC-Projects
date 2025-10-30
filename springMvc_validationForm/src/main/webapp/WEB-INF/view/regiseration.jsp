@@ -25,7 +25,7 @@ font-family: serif;
 <div align="center">
 <h1>Registeration Form</h1> <hr> <br><br>
 
-<form:form action="/springMvc_validationForm/process-register" modelAttribute="dto"
+<form:form action="/spring_mvc_ValivationForm/process-register" modelAttribute="dto"
   onsubmit="return validateForm()">
 
 <label class="color"> User Name  : </label>

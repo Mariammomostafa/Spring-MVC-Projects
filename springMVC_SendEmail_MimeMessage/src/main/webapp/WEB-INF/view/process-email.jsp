@@ -10,14 +10,12 @@
 
 <h1>Hi <span style="color: red">${userDto.name} </span>  </h1> 
 
-<h1> your email is :  ${emailDto.email} </h1>
-
 <div align="center">
 
 <h1>Email Send Successfully to : ${emailDto.email} </h1>
 
 </div>
 
-<a href="/com.selenium/">Try with somebody else ..</a>
+<a href="/com.selenium/home">Try with somebody else ..</a>
 </body>
 </html>

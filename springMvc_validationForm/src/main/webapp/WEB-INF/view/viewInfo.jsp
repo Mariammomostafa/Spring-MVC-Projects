@@ -30,7 +30,8 @@ Hobbies :
 </c:forEach> 
 <br><br>
 
-Gender : ${dto.gender}
+Gender : ${dto.gender}  <br><br>
 
+<a href="/spring_mvc_ValivationForm/login">Login</a><br><br>
 </body>
 </html>

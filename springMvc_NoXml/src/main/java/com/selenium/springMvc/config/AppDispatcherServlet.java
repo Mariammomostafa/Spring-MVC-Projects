@@ -1,4 +1,4 @@
-package com.selenium.springMvc;
+package com.selenium.springMvc.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

@@ -1,4 +1,4 @@
-package com.selenium.springMvc;
+package com.selenium.springMvc.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

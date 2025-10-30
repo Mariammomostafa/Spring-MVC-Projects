@@ -62,11 +62,11 @@ public class MimeMessageServerice {
 		MimeMultipart multipart = new MimeMultipart();
 		
 		MimeBodyPart attachment1 = new MimeBodyPart();
-		String filepath = "C:\\Users\\LAP TOP\\eclipse-workspace\\springMVC_SendEmail_MimeMessage\\static\\java.pdf";
+		String filepath = "C:\\Users\\LAP TOP\\eclipse-workspace\\SpringMVC\\springMVC_SendEmail_MimeMessage\\static\\java.pdf";
 		attachment1.attachFile(new File(filepath));
 		
 		MimeBodyPart attachment2 = new MimeBodyPart();
-		attachment2.attachFile(new File("C:\\Users\\LAP TOP\\eclipse-workspace\\springMVC_SendEmail_MimeMessage\\static\\sea.jpeg"));
+		attachment2.attachFile(new File("C:\\Users\\LAP TOP\\eclipse-workspace\\SpringMVC\\springMVC_SendEmail_MimeMessage\\static\\sea.jpeg"));
 		
 		MimeBodyPart messageBodyPart = new MimeBodyPart();	
 		messageBodyPart.setContent("<h1> welcome to our java project </h1>" , "text/html");

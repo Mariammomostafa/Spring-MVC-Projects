@@ -36,8 +36,11 @@ Gender : ${dto.gender}
 
 Phone : ${dto.communicationDto.phone.countryCode}-${dto.communicationDto.phone.userNumber}
 <br><br>
-Email : ${dto.communicationDto.email}<br><br>
+Email : ${dto.communicationDto.email}  <br><br>
 
+<a href="/spring_mvc_PhoneFormatter/login">Login</a><br><br>
+
+<a href="/spring_mvc_PhoneFormatter">Home</a>
 
 </body>
 </html>

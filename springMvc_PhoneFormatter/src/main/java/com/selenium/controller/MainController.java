@@ -1,4 +1,4 @@
-package com.selenium.config;
+package com.selenium.controller;
 
 import java.util.List;
 
