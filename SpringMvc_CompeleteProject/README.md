@@ -12,8 +12,10 @@ This is spring mvc maven project include lot of features like --> validators , E
 #### Due to Gmail's Security , you have to  to create password for your gmail account due to it's NOT acceptable for app to register with actual password
 - Turn on 2 -step-verification feature in your Gmail account
 - generate new app password due to the default Gmail password will NOT work
+
 ### Send Feedback
-- user can send feedback to the application's mail <img width="947" height="743" alt="1" src="https://github.com/user-attachments/assets/e22efd79-2cb2-4b21-a24e-ad6286ef904d" />
+- user can send feedback to the application's mail
+ <img width="947" height="743" alt="1" src="https://github.com/user-attachments/assets/e22efd79-2cb2-4b21-a24e-ad6286ef904d" />
  
 ### Prerequisites
 - Java 21
