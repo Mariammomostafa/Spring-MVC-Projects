@@ -6,6 +6,8 @@
 <img width="600" height="400" alt="1" src="https://github.com/user-attachments/assets/ff0b59b5-13f9-4c34-aa3d-1eb486ce757d" />
 </p>
 
+- register custom FOrmatter inside config file
+  
 ### Prerequisites
 - Java 21
 - spring Webmvc 6.2.12
