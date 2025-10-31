@@ -4,7 +4,6 @@ import java.math.BigDecimal;
 import java.sql.Date;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
-import java.util.Currency;
 
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.beans.propertyeditors.CustomNumberEditor;
@@ -17,7 +16,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.selenium.dto.BillDto;
-import com.selenium.editor.UpperCaseEditor;
 
 import jakarta.validation.Valid;
 
@@ -54,9 +52,6 @@ public class MainController {
 		binder.registerCustomEditor(BigDecimal.class, "amount", numberEditor);
 		
 		
-		// convert the currency input to upper case to be acceptable
-		UpperCaseEditor upperCaseEditor = new UpperCaseEditor();
-		binder.registerCustomEditor(Currency.class, "currency", upperCaseEditor);
 	}
 
 	
