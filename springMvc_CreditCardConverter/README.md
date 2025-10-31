@@ -11,6 +11,7 @@
 <img width="600" height="400" alt="1" src="https://github.com/user-attachments/assets/730d566c-0087-4c00-a222-feea01ad2e5b" />
 </p>
 
+- register Converter in config file 
 ### Prerequisites
 - Java 21
 - spring Webmvc 6.2.12
