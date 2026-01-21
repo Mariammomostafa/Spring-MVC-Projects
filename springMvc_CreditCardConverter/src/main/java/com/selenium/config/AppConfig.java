@@ -1,5 +1,7 @@
 package com.selenium.config;
 
+import java.sql.DriverManager;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -32,6 +34,7 @@ public class AppConfig implements WebMvcConfigurer{
 	public void addFormatters(FormatterRegistry registry) {
 		registry.addConverter(new ConvertFromStringToCredit());
 		registry.addConverter(new ConvertFromCreditToString());
+		
 	}
 	
 	
